@@ -12,7 +12,28 @@
     "isBestBuy": true,
     "isGross": true,
     "promoCode": "0630",
-    "isInclusiveProduct": true
+    "isInclusiveProduct": true,
+    "responseCode": 200,
+    "responseLength": 1,
+    "comment": "valid pricing should return data"
+  },
+  {
+    "countryCode": "AU",
+    "checkoutLocationCode": "SYD",
+    "checkoutDateTime": "2023-09-01T11:00",
+    "checkinLocationCode": "SYD",
+    "checkinDateTime": "2023-09-30T12:00",
+    "countryOfResidence": "AU",
+    "numberOfAdults": 2,
+    "agentCode": "B2CAU",
+    "isVan": true,
+    "isBestBuy": true,
+    "isGross": true,
+    "promoCode": "1234",
+    "isInclusiveProduct": true,
+    "responseCode": 200,
+    "responseLength": 1,
+    "comment": "valid pricing should return data"
   },
   {
     "countryCode": "AU",
@@ -27,6 +48,9 @@
     "isBestBuy": true,
     "isGross": true,
     "promoCode": "1234",
-    "isInclusiveProduct": true
+    "isInclusiveProduct": true,
+    "responseCode": 200,
+    "responseLength": 0,
+    "comment": "invalid pricing should return no data"
   }
 ]

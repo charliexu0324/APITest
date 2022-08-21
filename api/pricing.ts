@@ -3,6 +3,7 @@ import qs from "qs";
 import { v4 } from "uuid";
 
 export async function getPricingV1(data) {
+  // to update date
   const options = {
     method: "get",
     url: `https://api.aws.thlonline.com/api/2/availability/pricing?sessionId=5bdb266a-67b2-43ec-b4c8-f1cea63de00d&countryCode=${data.countryCode}&checkoutLocationCode=${data.checkoutLocationCode}&checkoutDateTime=${data.checkoutDateTime}&checkinLocationCode=${data.checkinLocationCode}&checkinDateTime=${data.checkinDateTime}&countryOfResidence=${data.countryOfResidence}&numberOfAdults=1&agentCode=${data.agentCode}&isVan=true&isBestBuy=true&isGross=true&isInclusiveProduct=true&promoCode=0630`,
