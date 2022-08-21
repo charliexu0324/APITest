@@ -1,0 +1,32 @@
+[
+  {
+    "countryCode": "NZ",
+    "checkoutLocationCode": "AKL",
+    "checkoutDateTime": "2023-09-01T11:00",
+    "checkinLocationCode": "AKL",
+    "checkinDateTime": "2023-09-30T12:00",
+    "countryOfResidence": "NZ",
+    "numberOfAdults": 1,
+    "agentCode": "B2CNZ",
+    "isVan": true,
+    "isBestBuy": true,
+    "isGross": true,
+    "promoCode": "0630",
+    "isInclusiveProduct": true
+  },
+  {
+    "countryCode": "AU",
+    "checkoutLocationCode": "SYD",
+    "checkoutDateTime": "2099-09-01T11:00",
+    "checkinLocationCode": "SYD",
+    "checkinDateTime": "2099-09-30T12:00",
+    "countryOfResidence": "AU",
+    "numberOfAdults": 2,
+    "agentCode": "B2CAU",
+    "isVan": true,
+    "isBestBuy": true,
+    "isGross": true,
+    "promoCode": "1234",
+    "isInclusiveProduct": true
+  }
+]
